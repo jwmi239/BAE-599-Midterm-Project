@@ -332,7 +332,9 @@ def show_data_cleaning():
     st.markdown('<div class="section-header">🧹 Data Cleaning Process with Justifications</div>', unsafe_allow_html=True)
     
     st.markdown("""
-    The data processing journey began with **31,126 participants** from the original NHANES 1999-2004 cycles and involved 
+    The data processing journey began with **31,126 participants** from the original NHANES 1999-2004 cycles, 
+    which were split into three separate cohorts with three respective datasets. Cardiovascular metrics, demographic
+    data, and body measures were each separate datasets. Thus, a total of 9 datasets were subjected to 
     multiple stages of systematic cleaning and integration. This comprehensive preprocessing approach ensured optimal 
     model performance while maintaining data integrity. The process reduced the dataset from 31,126 → 8,324 → 4,403 
     participants through careful variable selection and missing value management.
